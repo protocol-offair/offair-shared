@@ -1,6 +1,6 @@
 import { randomBytes } from "@noble/hashes/utils";
 import { sha256 } from "@noble/hashes/sha2";
-import type { TransferReceipt } from "./types";
+import type { TransferReceipt } from "./types.js";
 
 function canonicalize(value: unknown): unknown {
   if (Array.isArray(value)) {

@@ -1,6 +1,6 @@
 {
   "name": "@protocol-offair/shared",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "main": "./dist/index.js",
   "exports": {
@@ -25,7 +25,6 @@
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
-    "src",
     "README.md"
   ],
   "publishConfig": {

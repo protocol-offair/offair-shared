@@ -3,9 +3,9 @@ import {
   DEFAULT_VERIFIED_OFFLINE_MIN_LAMPORTS,
   OFFLINE_SETTLEMENT_MODE_FAST,
   OFFLINE_SETTLEMENT_MODE_VERIFIED,
-} from "./types";
-import { sha256Hex } from "./crypto";
-import { computeReputationExposureMultiplier, lineageRequiresVerifiedOnly } from "./identity";
+} from "./types.js";
+import { sha256Hex } from "./crypto.js";
+import { computeReputationExposureMultiplier, lineageRequiresVerifiedOnly } from "./identity.js";
 import type {
   AllowlistPolicy,
   ApprovalContext,
@@ -13,7 +13,7 @@ import type {
   DeviceManifest,
   OfflineSettlementTier,
   PolicySnapshot,
-} from "./types";
+} from "./types.js";
 
 export interface CompatibilityResult {
   ok: boolean;

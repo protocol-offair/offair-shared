@@ -1,6 +1,6 @@
-import { canonicalStringify, createNonce, deriveSessionKey, sha256Hex } from "./crypto";
-import { selectOfflineSettlementTier } from "./policy";
-import { RECEIVER_PAYS_OFFLINE_SETTLEMENT_FEES } from "./types";
+import { canonicalStringify, createNonce, deriveSessionKey, sha256Hex } from "./crypto.js";
+import { selectOfflineSettlementTier } from "./policy.js";
+import { RECEIVER_PAYS_OFFLINE_SETTLEMENT_FEES } from "./types.js";
 import type {
   HandshakeEnvelope,
   OffAirAllowance,
@@ -15,7 +15,7 @@ import type {
   SessionSettlementMode,
   TransferReceipt,
   WalletType,
-} from "./types";
+} from "./types.js";
 
 export interface CreateTransferParams {
   sessionId?: string;

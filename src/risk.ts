@@ -1,4 +1,4 @@
-import type { RiskBand, RiskSnapshot } from "./types";
+import type { RiskBand, RiskSnapshot } from "./types.js";
 
 export interface RiskFeatures {
   daysOffline: number;

@@ -1,11 +1,11 @@
-import { canonicalStringify, sha256Hex } from "./crypto";
+import { canonicalStringify, sha256Hex } from "./crypto.js";
 import { sha3_512 } from "@noble/hashes/sha3.js";
 import type {
   DeviceIntegrityState,
   DeviceReputationAnchor,
   ReputationEnvelope,
   WalletIdentityProfile,
-} from "./types";
+} from "./types.js";
 
 export const IDENTITY_DERIVATION_VERSION = 1 as const;
 export const DEVICE_REPUTATION_ANCHOR_PROTOCOL_SALT_VERSION = 1 as const;

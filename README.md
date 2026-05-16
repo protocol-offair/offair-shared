@@ -1,6 +1,6 @@
 # AirPay Shared
 
-Pacote TypeScript compartilhado com journal, policy, identity, blocklist, simulação, tipos e primitivas criptográficas usadas pelo ecossistema AirPay. Preparado para publicação pública no npm como `@airpay/shared`.
+Pacote TypeScript compartilhado com journal, policy, identity, blocklist, simulação, tipos e primitivas criptográficas usadas pelo ecossistema AirPay. Preparado para publicação pública no npm como `@protocol-offair/shared`.
 
 ## Origem
 

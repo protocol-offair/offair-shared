@@ -32,6 +32,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/protocol-offair/airpay-shared.git"
+    "url": "git+https://github.com/protocol-offair/offair-shared.git"
   }
 }
